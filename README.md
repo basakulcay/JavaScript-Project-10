@@ -14,3 +14,13 @@ Do not use built in methods to create solutions to below questions.
 The .forEach() function should apply politelyDecline() directly; it should NOT merely receive argument function that uses politelyDecline().
 
 Now we need to get healthy! Write a function acceptEverything() that takes in an array of strings and loops through each element in the array and grudgingly accepts each of them, by logging to the console in the following format: 'Ok, I guess I will eat some [element].'
+
+5. Write a function, dogFactory(). It should:
+
+    have 3 parameters: name, breed, and weight (in that order)
+    expect name and breed to be strings
+    expect weight to be a number
+    return an object
+    have each of those parameters as keys on the returned object returned with the values of the arguments that were passed in.
+    Add getters and setters for each of the three properties and change the property names to have an underscore prepended. 
+
